@@ -1,0 +1,16 @@
+{
+  "preset": "react-native",
+  "setupFilesAfterEnv": ["@testing-library/jest-native/extend-expect"],
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "**/*.{js,jsx}",
+    "**/*.{ts,tsx}",
+    "!**/node_modules/**",
+    "!**/ios/**",
+    "!**/android/**",
+    "!**/certificates/**",
+    "!**/patches/**",
+    "!**/reports/**"
+  ],
+  "coverageDirectory": "./reports/coverage/lcov-report/"
+}
